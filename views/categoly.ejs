@@ -1,0 +1,19 @@
+<div>
+    <h1> カテゴリーページ </h1>
+    <h1><%= categoly %></h1>
+</div>
+
+<div>
+    <a href="/<%= categoly %>/new">
+        <h2>create new thread</h2>
+    </a>
+
+    <% threads.forEach(thread => { %>
+        <div>
+            <a href="/<%= categoly %>/<%= thread.title%>">
+                <h3><%= thread.title %></h3>
+            </a>
+        </div>
+
+    <% }) %>
+</div>
