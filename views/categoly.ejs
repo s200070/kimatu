@@ -1,18 +1,23 @@
-<div>
-    <h1> カテゴリーページ </h1>
-    <h1><%= categoly %></h1>
+<div >
+    <h1 class="kategori"> スポーツ一覧</h1>
+    <a href="/<%= categoly %>/new">
+        <h2 class="wrapper">新規スレッドに追加</h2>
+    </a>
+
 </div>
 
 <div>
-    <a href="/<%= categoly %>/new">
-        <h2>create new thread</h2>
-    </a>
+    <h2 class="onecategly"><%= categoly %></h2>
 
     <% threads.forEach(thread => { %>
-        <div>
-            <a href="/<%= categoly %>/<%= thread.title%>">
-                <h3><%= thread.title %></h3>
-            </a>
+        <div class="hyou1">
+            <ul>
+                <li class="list">
+                    <a href="/<%= categoly %>/<%= thread.title%>">
+                        <h3 ><%= thread.title %></h3>
+                    </a>
+                </li>
+            </ul>
         </div>
 
     <% }) %>

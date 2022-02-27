@@ -1,0 +1,71 @@
+h1 {
+    font-size: 50px;
+    text-align:center;
+    padding:20px 0;
+
+}
+
+.example {
+    margin: 10px auto;
+    width: 100%;
+    background: dodgerblue;
+}
+
+
+.kategori {
+    font-size: 30px;
+    margin: 20px 30px 0px 30px;
+    width: 500px ;
+    background: darkorange;
+    float: left;
+}
+
+.hyou {
+    font-size: 35px;
+    margin: 0px 30px 20px 30px;
+    width: 500px ;
+    border-color: green;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.hyou1 {
+    font-size: 20px;
+    margin: 0px 30px 0px 30px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0px 4px 0px 4px;
+    line-height: 0.5;
+}
+
+.wrapper {
+    overflow: hidden;
+    padding: 35px 5px 20px 5px;
+    font-size: 30px;
+}
+
+.item {
+    float: left;
+    margin: 8px 0 8px 8px;
+}
+
+.onecategly {
+    font-size: 50px;
+    padding: 0 0 0 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    size: 60px;
+}
