@@ -61,7 +61,7 @@ module.exports = {
         const Message = mongoose.model(`${categoly}-${thread}`, messageSchema)
         const params = {
             message:  req.body.message,
-            user: req.body.user
+            userName: req.body.user
         }
         Message.create(params)
             .then(() => {
